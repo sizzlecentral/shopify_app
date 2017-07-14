@@ -1,3 +1,7 @@
+7.2.12
+------
+* Changed engine controllers to subclass ActionController::Base to avoid any possible conflict with the parent application
+
 7.2.11
 -----
 * Remove 'Logged in' flash message [[#425]](https://github.com/Shopify/shopify_app/pull/425)
